@@ -3,139 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgroSustentável | Futuro Verde</title>
+    <title>Sustentabilidade no Agronegócio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Cabeçalho e Menu Responsivo -->
+    <!-- Cabeçalho -->
     <header>
-        <div class="logo">Agro<span>Sustentável</span></div>
-        <button class="menu-toggle" aria-label="Abrir Menu">&#9776;</button>
-        <nav class="nav-menu">
-            <a href="#home">Home</a>
-            <a href="#producao">Produção</a>
-            <a href="#sustentabilidade">Sustentabilidade</a>
-            <a href="#desafios">Desafios</a>
-            <a href="#solucoes">Soluções</a>
-            <a href="#quiz">Quiz Agro</a>
-            <a href="#contato">Contato</a>
+        <div class="logo">AgroSustentável</div>
+        <nav>
+            <ul>
+                <li><a href="#producao">Produção</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <!-- Banner Principal -->
-        <section id="home" class="banner fade-in">
-            <div class="banner-content">
-                <h1>O Futuro da Agricultura é Sustentável</h1>
-                <p>Inovação tecnológica e preservação ambiental caminhando juntas para alimentar o mundo.</p>
-                <a href="#producao" class="btn">Conhecer Tecnologias</a>
-            </div>
-        </section>
+    <!-- Banner principal -->
+    <section class="banner">
+        <h1>Agronegócio Sustentável: Crescimento sem Destruição</h1>
+        <p>Como o agronegócio pode crescer economicamente sem comprometer os recursos naturais das futuras gerações?</p>
+        <a href="#sustentabilidade" class="btn">Saiba Mais</a>
+    </section>
 
-        <!-- Produção Agrícola -->
-        <section id="producao" class="container fade-in">
-            <h2>Produção & Tecnologia</h2>
-            <p class="subtitle">O agronegócio representa cerca de 25% do PIB nacional e impulsiona a economia.</p>
-            <div class="grid-3">
-                <div class="card">
-                    <h3>Drones Agrícolas</h3>
-                    <p>Mapeamento térmico e monitoramento de pragas em tempo real, reduzindo o uso de defensivos.</p>
-                </div>
-                <div class="card">
-                    <h3>Agricultura de Precisão</h3>
-                    <p>Uso de sensores no solo para aplicação exata de insumos apenas onde é necessário.</p>
-                </div>
-                <div class="card">
-                    <h3>Irrigação Inteligente</h3>
-                    <p>Sistemas automatizados que gotejam água direto na raiz, evitando o desperdício.</p>
-                </div>
-            </div>
-        </section>
+    <!-- Seção Produção Agrícola -->
+    <section id="producao">
+        <h2>Produção Agrícola</h2>
+        <p>O agronegócio é um motor da economia, gerando empregos e garantindo segurança alimentar. Tecnologias como agricultura de precisão e drones estão revolucionando o campo.</p>
+        <img src="imagens/producao.jpg" alt="Plantações e tecnologia agrícola">
+    </section>
 
-        <!-- Sustentabilidade -->
-        <section id="sustentabilidade" class="bg-light fade-in">
-            <div class="container">
-                <h2>Práticas Ecológicas</h2>
-                <div class="grid-2">
-                    <div>
-                        <h3>Conservação do Solo</h3>
-                        <p>O plantio direto sobre a palha evita a erosão, mantém a umidade da terra e preserva microrganismos benéficos.</p>
-                    </div>
-                    <div>
-                        <h3>Energias Limpas</h3>
-                        <p>Fazendas modernas utilizam painéis solares e biomassa gerada pelos próprios resíduos para abastecer suas operações.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Seção Sustentabilidade -->
+    <section id="sustentabilidade">
+        <h2>Sustentabilidade</h2>
+        <p>Práticas ecológicas como conservação do solo e uso de energias limpas ajudam a equilibrar produção e preservação ambiental.</p>
+        <img src="imagens/energia-solar.jpg" alt="Painéis solares no campo">
+    </section>
 
-        <!-- Desafios Ambientais -->
-        <section id="desafios" class="container fade-in">
-            <h2>Desafios Atuais</h2>
-            <div class="grid-3">
-                <div class="card alert">
-                    <h3>Desmatamento</h3>
-                    <p>A expansão desordenada destrói biomas essenciais para o regime de chuvas da própria agricultura.</p>
-                </div>
-                <div class="card alert">
-                    <h3>Escassez Hídrica</h3>
-                    <p>O manejo incorreto da água esgota lençóis freáticos e ameaça o abastecimento local.</p>
-                </div>
-                <div class="card alert">
-                    <h3>Emissões de CO₂</h3>
-                    <p>O maquinário pesado e a pecuária tradicional liberam altos volumes de gases poluentes.</p>
-                </div>
-            </div>
-        </section>
+    <!-- Seção Desafios Ambientais -->
+    <section id="desafios">
+        <h2>Desafios Ambientais</h2>
+        <p>Desmatamento, uso excessivo da água e emissão de carbono são problemas graves que exigem soluções inovadoras.</p>
+        <img src="imagens/desmatamento.jpg" alt="Desmatamento">
+    </section>
 
-        <!-- Soluções e Futuro -->
-        <section id="solucoes" class="bg-dark fade-in">
-            <div class="container text-white">
-                <h2>Agricultura Regenerativa</h2>
-                <p>A grande resposta para o futuro é a **ILPF (Integração Lavoura-Pecuária-Floresta)**. Essa técnica combina a produção de grãos, carne e madeira na mesma área. O resultado é o sequestro ativo de carbono e a recuperação de solos degradados.</p>
-            </div>
-        </section>
+    <!-- Seção Soluções e Futuro -->
+    <section id="solucoes">
+        <h2>Soluções e Futuro</h2>
+        <p>Inovações como agricultura regenerativa, monitoramento por drones e energias renováveis podem garantir um futuro sustentável.</p>
+        <img src="imagens/solucoes.jpg" alt="Tecnologia e sustentabilidade no campo">
+    </section>
 
-        <!-- Desafio Complementar: Quiz Interativo -->
-        <section id="quiz" class="container fade-in">
-            <h2>Quiz da Sustentabilidade</h2>
-            <p class="subtitle">Teste seus conhecimentos sobre o campo sustentável!</p>
-            <div id="quiz-container" class="card">
-                <p id="quiz-pergunta">Carregando pergunta...</p>
-                <div id="quiz-opcoes" class="quiz-options"></div>
-                <p id="quiz-resultado"></p>
-            </div>
-        </section>
-
-        <!-- Contato -->
-        <section id="contato" class="bg-light fade-in">
-            <div class="container container-small">
-                <h2>Contato & Conscientização</h2>
-                <form id="form-contato">
-                    <div class="form-group">
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="mensagem">Como você apoia a sustentabilidade?</label>
-                        <textarea id="mensagem" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Enviar Mensagem</button>
-                </form>
-            </div>
-        </</section>
-    </main>
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Envie sua mensagem ou sugestões sobre sustentabilidade no agronegócio:</p>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2026 AgroSustentável. Desenvolvido para o bem do nosso planeta.</p>
+        <p>&copy; 2026 AgroSustentável | Todos os direitos reservados</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
